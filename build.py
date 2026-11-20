@@ -144,10 +144,11 @@ def main():
         content, heads = md(body, poem)
         words = len(re.findall(r"\w+", body))
         mins = max(1, round(words / 220))
-        toc = ""
+        toc = toc_inline = ""
         if not poem and len([h for h in heads if h[0] == 2]) >= 2:
-            toc = '<aside class="toc"><div class="toc-h">On this page</div>' + "".join(
-                f'<a class="l{n}" href="#{sid}">{html.escape(t)}</a>' for n, t, sid in heads) + "</aside>"
+            links = "".join(f'<a class="l{n}" href="#{sid}">{html.escape(t)}</a>' for n, t, sid in heads)
+            toc = f'<aside class="toc"><div class="toc-h">On this page</div>{links}</aside>'
+            toc_inline = f'<details class="toc toc-inline"><summary>On this page</summary>{links}</details>'
         tagline = " · ".join(html.escape(t) for t in tags)
         cls = " poem" if poem else ""
         wrap = " has-toc" if toc else ""
@@ -156,7 +157,7 @@ def main():
 <div class="tag">{tagline}</div>
 <h1>{html.escape(title)}</h1>
 <div class="meta">{nice_date(date)} · {mins} min read</div>
-{toc.replace('class="toc"', 'class="toc toc-inline"')}
+{toc_inline}
 <div class="body">{content}</div>
 <p class="back"><a href="../index.html">&larr; All articles</a></p>
 </article>{toc}</div>"""
