@@ -46,6 +46,15 @@ def md(text, poem=False):
         if not s:
             flush()
             continue
+        im = re.match(r'!\[([^\]]*)\]\(([^)\s]+)(?:\s+"([^"]*)")?\)$', s)
+        if im:
+            flush()
+            src = im.group(2)
+            if not re.match(r"(https?:)?//|\.\./", src):
+                src = "../" + src      # images/x.jpg is written relative to the site folder
+            cap = f"<figcaption>{html.escape(im.group(3))}</figcaption>" if im.group(3) else ""
+            out.append(f'<figure><img src="{html.escape(src)}" alt="{html.escape(im.group(1))}" loading="lazy">{cap}</figure>')
+            continue
         m = re.match(r"(#{1,3})\s+(.*)", s)
         if m:
             flush()
@@ -133,6 +142,8 @@ def main():
     (docs / "posts").mkdir(parents=True)
     shutil.copy(ROOT / "style.css", docs / "style.css")
     shutil.copy(ROOT / "site.js", docs / "site.js")
+    if (ROOT / "images").exists():
+        shutil.copytree(ROOT / "images", docs / "images")
 
     posts = []
     for p in sorted((ROOT / "posts").glob("*.md")):

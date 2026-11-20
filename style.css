@@ -43,6 +43,9 @@ blockquote{margin:1.6rem 0;padding-left:1.1rem;border-left:3px solid var(--accen
 blockquote p{margin:0!important}
 .poem .body{font-family:Fraunces,serif;font-size:21px;line-height:1.8}
 .poem .stanza{margin:0 0 1.8em!important}
+.post figure{margin:2rem 0}
+.post figure img{display:block;max-width:100%;height:auto;border-radius:12px}
+.post figcaption{font-size:14px;color:var(--mute);margin-top:8px}
 .back{margin-top:3rem}
 .toc{max-width:40rem;margin:0 0 28px;padding:14px 18px;border:1px solid var(--line);border-radius:14px;background:var(--card);font-size:15px}
 .toc a{display:block;color:var(--soft);text-decoration:none;padding:3px 0}
