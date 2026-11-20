@@ -23,6 +23,24 @@
     upd();
   }
 
+  var side = document.querySelector(".post-wrap > .toc");
+  if (side) {
+    var links = [].slice.call(side.querySelectorAll("a")).map(function (a) {
+      return { a: a, el: document.getElementById(a.getAttribute("href").slice(1)) };
+    }).filter(function (x) { return x.el; });
+    var spy = function () {
+      var cur = null;
+      links.forEach(function (x) { if (x.el.getBoundingClientRect().top <= 140) cur = x; });
+      links.forEach(function (x) { x.a.classList.toggle("active", x === cur); });
+      [].forEach.call(side.querySelectorAll(".grp"), function (g) {
+        g.classList.toggle("open", !!cur && g.contains(cur.a));
+      });
+    };
+    addEventListener("scroll", spy, { passive: true });
+    addEventListener("resize", spy);
+    spy();
+  }
+
   var q = document.getElementById("q"), grid = document.getElementById("grid");
   if (q && grid) {
     var tag = "", cards = [].slice.call(grid.querySelectorAll(".card")), none = document.getElementById("none");

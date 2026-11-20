@@ -162,7 +162,15 @@ def main():
         mins = max(1, round(words / 220))
         toc = toc_inline = ""
         if not poem and len([h for h in heads if h[0] == 2]) >= 2:
-            links = "".join(f'<a class="l{n}" href="#{sid}">{html.escape(t)}</a>' for n, t, sid in heads)
+            links, open_grp = "", False
+            for n, t, sid in heads:
+                a = f'<a class="l{n}" href="#{sid}">{html.escape(t)}</a>'
+                if n == 2:
+                    links += ("</div></div>" if open_grp else "") + f'<div class="grp">{a}<div class="subs">'
+                    open_grp = True
+                else:
+                    links += a
+            links += "</div></div>" if open_grp else ""
             toc = f'<aside class="toc"><div class="toc-h">On this page</div>{links}</aside>'
             toc_inline = f'<details class="toc toc-inline"><summary>On this page</summary>{links}</details>'
         tagline = " · ".join(html.escape(t) for t in tags)
