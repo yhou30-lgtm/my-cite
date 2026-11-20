@@ -338,9 +338,3 @@ If pleasure is the only thing that makes these experiences valuable, what exactl
 And if they are fundamentally different kinds of pleasure, can we really measure them on the same scale?
 
 Perhaps the most interesting question is not whether pleasure matters to a good life. It clearly does. The harder question is whether pleasure alone can explain why some lives seem more worth living than others.
-
-## Reference
-
-Fletcher. "Hedonism." Chapter 1 of The Philosophy of Well-Being. Routledge. DOI: 10.4324/9781003534471-2.
-
-The arguments, thought experiments, and philosophical positions discussed in this article are drawn primarily from Fletcher's chapter. Interpretive comments and reflections are my own.
