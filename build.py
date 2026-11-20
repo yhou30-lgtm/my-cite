@@ -7,7 +7,7 @@ from datetime import datetime
 ROOT = Path(__file__).parent
 SITE_NAME = "Jack"                 # change to your full name
 HEADLINE = "Writing about what I am <i>learning</i> and what I can't stop thinking about."
-SUBLINE = "Essays, poems and notes from college."
+SUBLINE = "Reading poems until they start talking back."
 
 
 # ---------- markdown ----------
