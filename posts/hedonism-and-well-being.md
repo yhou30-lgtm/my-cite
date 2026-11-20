@@ -2,7 +2,7 @@
 title: Is Pleasure All There Is to a Good Life?
 date: 2026-11-20
 tags: Philosophy
-summary: A reading of Guy Fletcher's chapter on hedonism: the arguments for it, the experience machine, and why feeling good may not be enough.
+summary: A reading of Fletcher's chapter on hedonism: the arguments for it, the experience machine, and why feeling good may not be enough.
 ---
 What does it mean to live a good life?
 
@@ -10,7 +10,7 @@ One might answer that it means being happy, enjoying one's experiences, and avoi
 
 This question lies at the heart of one of the simplest and most influential theories of well-being: hedonism.
 
-In Chapter 1 of The Philosophy of Well-Being, philosopher Guy Fletcher introduces hedonism, examines the arguments in its favour, and considers several objections that challenge its central claim. Among them is Robert Nozick's famous experience machine, a thought experiment that forces us to reconsider whether feeling good is sufficient for living well.
+In Chapter 1 of The Philosophy of Well-Being, the philosopher Fletcher introduces hedonism, examines the arguments in its favour, and considers several objections that challenge its central claim. Among them is Robert Nozick's famous experience machine, a thought experiment that forces us to reconsider whether feeling good is sufficient for living well.
 
 ## 1. What Is Hedonism?
 
@@ -341,6 +341,6 @@ Perhaps the most interesting question is not whether pleasure matters to a good 
 
 ## Reference
 
-Fletcher, Guy. "Hedonism." Chapter 1 of The Philosophy of Well-Being. Routledge. DOI: 10.4324/9781003534471-2.
+Fletcher. "Hedonism." Chapter 1 of The Philosophy of Well-Being. Routledge. DOI: 10.4324/9781003534471-2.
 
 The arguments, thought experiments, and philosophical positions discussed in this article are drawn primarily from Fletcher's chapter. Interpretive comments and reflections are my own.
