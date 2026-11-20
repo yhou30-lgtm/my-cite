@@ -46,14 +46,19 @@ def md(text, poem=False):
         if not s:
             flush()
             continue
-        im = re.match(r'!\[([^\]]*)\]\(([^)\s]+)(?:\s+"([^"]*)")?\)$', s)
+        # ![alt](images/x.png "optional caption"){eq w=200}   eq = formula or notes image, w = width in pixels
+        im = re.match(r'!\[([^\]]*)\]\(([^)\s]+)(?:\s+"([^"]*)")?\)(?:\{([^}]*)\})?$', s)
         if im:
             flush()
             src = im.group(2)
             if not re.match(r"(https?:)?//|\.\./", src):
                 src = "../" + src      # images/x.jpg is written relative to the site folder
             cap = f"<figcaption>{html.escape(im.group(3))}</figcaption>" if im.group(3) else ""
-            out.append(f'<figure><img src="{html.escape(src)}" alt="{html.escape(im.group(1))}" loading="lazy">{cap}</figure>')
+            opts = (im.group(4) or "").split()
+            cls = ' class="eq"' if "eq" in opts else ""
+            wm = next((re.fullmatch(r"w=(\d+)", o) for o in opts if re.fullmatch(r"w=\d+", o)), None)
+            width = f' width="{wm.group(1)}"' if wm else ""
+            out.append(f'<figure{cls}><img src="{html.escape(src)}" alt="{html.escape(im.group(1))}"{width} loading="lazy">{cap}</figure>')
             continue
         m = re.match(r"(#{1,3})\s+(.*)", s)
         if m:
