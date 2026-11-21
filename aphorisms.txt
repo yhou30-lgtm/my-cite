@@ -1,10 +1,102 @@
 # Format: Category | Quote | Author | Source
-# Every quote was checked against the page named in its source line. Add new lines at the bottom.
+# Every quote was checked against the text of the page or book named in its source line. Add new lines at the bottom.
 Philosophy | The life which is unexamined is not worth living. | Plato (Socrates) | Apology, trans. Benjamin Jowett
-Philosophy | Men are disturbed, not by things, but by the principles and notions which they form concerning things. | Epictetus | Enchiridion 5, trans. Elizabeth Carter
 Business | We simply attempt to be fearful when others are greedy and to be greedy only when others are fearful. | Warren Buffett | Berkshire Hathaway chairman's letter, 1986
-Business | Price is what you pay; value is what you get. | Warren Buffett (quoting Ben Graham) | Berkshire Hathaway shareholder letter, 2008
 Poetry | I took the one less traveled by, / And that has made all the difference. | Robert Frost | The Road Not Taken
+Philosophy | Men are disturbed, not by things, but by the principles and notions which they form concerning things. | Epictetus | Enchiridion 5, trans. Elizabeth Carter
+Business | Price is what you pay; value is what you get. | Warren Buffett (quoting Ben Graham) | Berkshire Hathaway shareholder letter, 2008
 Poetry | To strive, to seek, to find, and not to yield. | Alfred, Lord Tennyson | Ulysses
+Philosophy | The best way of avenging thyself is not to become like the wrong doer. | Marcus Aurelius | Meditations 6, trans. George Long
+Business | It's far better to buy a wonderful company at a fair price than a fair company at a wonderful price. | Warren Buffett | Berkshire Hathaway chairman's letter, 1989
 Poetry | I celebrate myself, and sing myself, / And what I assume you shall assume. | Walt Whitman | Song of Myself, 1
+Philosophy | The soul is dyed by the thoughts. | Marcus Aurelius | Meditations 5, trans. George Long
+Business | Our favorite holding period is forever. | Warren Buffett | Berkshire Hathaway chairman's letter, 1988
 Poetry | Things fall apart; the centre cannot hold; / Mere anarchy is loosed upon the world. | W. B. Yeats | The Second Coming
+Philosophy | If it is not right, do not do it: if it is not true, do not say it. | Marcus Aurelius | Meditations 12, trans. George Long
+Business | Time is the friend of the wonderful business, the enemy of the mediocre. | Warren Buffett | Berkshire Hathaway chairman's letter, 1989
+Poetry | If you can fill the unforgiving minute / With sixty seconds' worth of distance run | Rudyard Kipling | If
+Philosophy | Some things are in our control and others not. | Epictetus | Enchiridion 1, trans. Elizabeth Carter
+Business | Predicting rain doesn't count. Building arks does. | Warren Buffett | Berkshire Hathaway chairman's letter, 2001
+Poetry | I am the master of my fate: / I am the captain of my soul. | William Ernest Henley | Invictus
+Philosophy | For one swallow does not make a summer, nor does one day; and so too one day, or a short time, does not make a man blessed and happy. | Aristotle | Nicomachean Ethics 1.7, trans. W. D. Ross
+Business | After all, you only find out who is swimming naked when the tide goes out. | Warren Buffett | Berkshire Hathaway chairman's letter, 2001
+Poetry | Look on my works, ye Mighty, and despair! | Percy Bysshe Shelley | Ozymandias
+Philosophy | Moral virtue comes about as a result of habit | Aristotle | Nicomachean Ethics 2.1, trans. W. D. Ross
+Business | In the business world, unfortunately, the rear-view mirror is always clearer than the windshield | Warren Buffett | Berkshire Hathaway chairman's letter, 1991
+Poetry | If Winter comes, can Spring be far behind? | Percy Bysshe Shelley | Ode to the West Wind
+Philosophy | We suffer more often in imagination than in reality. | Seneca | Letters to Lucilius 13, trans. Richard Gummere
+Business | Beware of little expenses; a small leak will sink a great ship | Benjamin Franklin | The Way to Wealth (Poor Richard's maxims)
+Poetry | To see a World in a Grain of Sand / And a Heaven in a Wild Flower / Hold Infinity in the palm of your hand / And Eternity in an hour | William Blake | Auguries of Innocence
+Philosophy | Hold every hour in your grasp. | Seneca | Letters to Lucilius 1, trans. Richard Gummere
+Business | Lost time is never found again | Benjamin Franklin | The Way to Wealth (Poor Richard's maxims)
+Poetry | "Beauty is truth, truth beauty"—that is all / Ye know on earth, and all ye need to know. | John Keats | Ode on a Grecian Urn
+Philosophy | He who knows only his own side of the case, knows little of that. | John Stuart Mill | On Liberty, chapter 2
+Business | The best business to own is one that over an extended period can employ large amounts of incremental capital at very high rates of return. | Warren Buffett | Berkshire Hathaway chairman's letter, 1992
+Poetry | Hope is the thing with feathers / That perches in the soul | Emily Dickinson | Hope is the thing with feathers
+Philosophy | Look within. Within is the fountain of good, and it will ever bubble up, if thou wilt ever dig. | Marcus Aurelius | Meditations 7, trans. George Long
+Business | Early to bed, and early to rise, Make a man healthy, wealthy, and wise. | Benjamin Franklin | The Way to Wealth (Poor Richard's maxims)
+Poetry | The woods are lovely, dark and deep. / But I have promises to keep | Robert Frost | Stopping by Woods on a Snowy Evening
+Philosophy | No longer talk at all about the kind of man that a good man ought to be, but be such. | Marcus Aurelius | Meditations 10, trans. George Long
+Poetry | Some say the world will end in fire, / Some say in ice. | Robert Frost | Fire and Ice
+Philosophy | The universe is transformation: life is opinion. | Marcus Aurelius | Meditations 4, trans. George Long
+Poetry | Good fences make good neighbors. | Robert Frost | Mending Wall
+Philosophy | Since it is possible that thou mayest depart from life this very moment, regulate every act and thought accordingly. | Marcus Aurelius | Meditations 2, trans. George Long
+Poetry | The world is too much with us; late and soon, / Getting and spending, we lay waste our powers | William Wordsworth | The World Is Too Much with Us
+Philosophy | Do not disturb thyself by thinking of the whole of thy life. | Marcus Aurelius | Meditations 8, trans. George Long
+Poetry | Do I contradict myself? / Very well then I contradict myself, / I am large, I contain multitudes. | Walt Whitman | Song of Myself, 51
+Philosophy | Do not despise death, but be well content with it, since this too is one of those things which nature wills. | Marcus Aurelius | Meditations 9, trans. George Long
+Poetry | I have measured out my life with coffee spoons | T. S. Eliot | The Love Song of J. Alfred Prufrock
+Philosophy | Attend to the matter which is before thee, whether it is an opinion or an act or a word. | Marcus Aurelius | Meditations 8, trans. George Long
+Poetry | The best lack all conviction, while the worst / Are full of passionate intensity. | W. B. Yeats | The Second Coming
+Philosophy | Don't demand that things happen as you wish, but wish that they happen as they do happen, and you will go on well. | Epictetus | Enchiridion 8, trans. Elizabeth Carter (MIT Internet Classics Archive)
+Poetry | Hold fast to dreams / For if dreams die / Life is a broken-winged bird / That cannot fly. | Langston Hughes | Dreams
+Philosophy | Never say of anything, "I have lost it"; but, "I have returned it." | Epictetus | Enchiridion 11, trans. Elizabeth Carter (MIT Internet Classics Archive)
+Poetry | My candle burns at both ends; / It will not last the night | Edna St. Vincent Millay | First Fig
+Philosophy | If you want to improve, be content to be thought foolish and stupid with regard to external things. | Epictetus | Enchiridion 13, trans. Elizabeth Carter (MIT Internet Classics Archive)
+Poetry | Give me your tired, your poor | Emma Lazarus | The New Colossus
+Philosophy | With every accident, ask yourself what abilities you have for making a proper use of it. | Epictetus | Enchiridion 10, trans. Elizabeth Carter (MIT Internet Classics Archive)
+Poetry | This above all: to thine ownself be true | William Shakespeare | Hamlet, Act 1, Scene 3
+Philosophy | Every art and every inquiry, and similarly every action and pursuit, is thought to aim at some good | Aristotle | Nicomachean Ethics 1.1, trans. W. D. Ross
+Poetry | Neither a borrower nor a lender be | William Shakespeare | Hamlet, Act 1, Scene 3
+Philosophy | Trust thyself: every heart vibrates to that iron string. | Ralph Waldo Emerson | Self-Reliance
+Poetry | There is nothing either good or bad, but thinking makes it so | William Shakespeare | Hamlet, Act 2, Scene 2
+Philosophy | A foolish consistency is the hobgoblin of little minds, adored by little statesmen and philosophers and divines. | Ralph Waldo Emerson | Self-Reliance
+Poetry | The fault, dear Brutus, is not in our stars, / But in ourselves, that we are underlings. | William Shakespeare | Julius Caesar, Act 1, Scene 2
+Philosophy | To be great is to be misunderstood. | Ralph Waldo Emerson | Self-Reliance
+Poetry | We are such stuff / As dreams are made on, and our little life / Is rounded with a sleep. | William Shakespeare | The Tempest, Act 4, Scene 1
+Philosophy | Whoso would be a man must be a nonconformist. | Ralph Waldo Emerson | Self-Reliance
+Poetry | Life's but a walking shadow, a poor player / That struts and frets his hour upon the stage | William Shakespeare | Macbeth, Act 5, Scene 5
+Philosophy | Nothing can bring you peace but yourself. | Ralph Waldo Emerson | Self-Reliance
+Poetry | One could do worse than be a swinger of birches. | Robert Frost | Birches
+Philosophy | Insist on yourself; never imitate. | Ralph Waldo Emerson | Self-Reliance
+Poetry | Nature's first green is gold, / Her hardest hue to hold. | Robert Frost | Nothing Gold Can Stay
+Philosophy | I went to the woods because I wished to live deliberately, to front only the essential facts of life, and see if I could not learn what it had to teach, and not, when I came to die, discover that I had not lived. | Henry David Thoreau | Walden, Where I Lived, and What I Lived For
+Poetry | Lives of great men all remind us / We can make our lives sublime | Henry Wadsworth Longfellow | A Psalm of Life
+Philosophy | Time is but the stream I go a-fishing in. | Henry David Thoreau | Walden, Where I Lived, and What I Lived For
+Poetry | I'm Nobody! Who are you? | Emily Dickinson | I'm Nobody! Who are you?
+Philosophy | The mass of men lead lives of quiet desperation. | Henry David Thoreau | Walden, Economy
+Poetry | There is no frigate like a book / To take us Lands away | Emily Dickinson | There is no Frigate like a Book
+Philosophy | If you have built castles in the air, your work need not be lost; that is where they should be. | Henry David Thoreau | Walden, Conclusion
+Poetry | That you are here—that life exists and identity, / That the powerful play goes on, and you may contribute a verse. | Walt Whitman | O Me! O Life!
+Philosophy | If a man does not keep pace with his companions, perhaps it is because he hears a different drummer. | Henry David Thoreau | Walden, Conclusion
+Poetry | Sunset and evening star, / And one clear call for me! | Alfred, Lord Tennyson | Crossing the Bar
+Philosophy | What does not kill me makes me stronger. | Friedrich Nietzsche | Twilight of the Idols, Maxims and Arrows 8
+Poetry | I am a part of all that I have met | Alfred, Lord Tennyson | Ulysses
+Philosophy | Supreme excellence consists in breaking the enemy's resistance without fighting. | Sun Tzu | The Art of War 3, trans. Lionel Giles
+Poetry | She walks in beauty, like the night / Of cloudless climes and starry skies | Lord Byron | She Walks in Beauty
+Philosophy | No evil can happen to a good man, either in life or after death. | Plato (Socrates) | Apology, trans. Benjamin Jowett
+Poetry | The world is charged with the grandeur of God. | Gerard Manley Hopkins | God's Grandeur
+Philosophy | All warfare is based on deception. | Sun Tzu | The Art of War 1, trans. Lionel Giles
+Poetry | I will arise and go now, and go to Innisfree | W. B. Yeats | The Lake Isle of Innisfree
+Philosophy | Simplify, simplify. | Henry David Thoreau | Walden, Where I Lived, and What I Lived For
+Poetry | But one man loved the pilgrim soul in you | W. B. Yeats | When You Are Old
+Philosophy | Let us spend one day as deliberately as Nature, and not be thrown off the track by every nutshell and mosquito's wing that falls on the rails. | Henry David Thoreau | Walden, Where I Lived, and What I Lived For
+Poetry | If you can keep your head when all about you / Are losing theirs and blaming it on you | Rudyard Kipling | If
+Poetry | Because I could not stop for Death / He kindly stopped for me | Emily Dickinson | Because I could not stop for Death
+Poetry | Tyger! Tyger! burning bright / In the forests of the night | William Blake | The Tyger
+Poetry | To be, or not to be, that is the question | William Shakespeare | Hamlet, Act 3, Scene 1
+Poetry | The play's the thing / Wherein I'll catch the conscience of the king. | William Shakespeare | Hamlet, Act 2, Scene 2
+Poetry | All the world's a stage, / And all the men and women merely players | William Shakespeare | As You Like It, Act 2, Scene 7
+Poetry | Cowards die many times before their deaths; / The valiant never taste of death but once. | William Shakespeare | Julius Caesar, Act 2, Scene 2
+Poetry | The course of true love never did run smooth | William Shakespeare | A Midsummer Night's Dream, Act 1, Scene 1
+Poetry | Our doubts are traitors / And make us lose the good we oft might win / By fearing to attempt. | William Shakespeare | Measure for Measure, Act 1, Scene 4
