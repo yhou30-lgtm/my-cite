@@ -132,7 +132,7 @@ def layout(title, body, depth=0, active="", progress=False):
 </head><body>
 {bar}
 <header class="top"><a class="logo" href="{up}index.html">{html.escape(SITE_NAME)}</a>
-<nav>{nav("index.html", "Articles", "home")}{nav("about.html", "About", "about")}
+<nav>{nav("index.html", "Articles", "home")}{nav("aphorisms.html", "Aphorisms", "aphorisms")}{nav("about.html", "About", "about")}
 <button id="theme" aria-label="Switch light or dark theme">Dark</button></nav></header>
 {body}
 <footer>&copy; {html.escape(SITE_NAME)}</footer>
@@ -211,6 +211,37 @@ def main():
 <div class="grid" id="grid">{cards}</div>
 <p class="none" id="none" hidden>Nothing matches that.</p></main>"""
     (docs / "index.html").write_text(layout(SITE_NAME, home, 0, "home"), encoding="utf-8")
+
+    qfile = ROOT / "aphorisms.txt"
+    qcards, qcats = "", []
+    if qfile.exists():
+        for line in qfile.read_text(encoding="utf-8").splitlines():
+            if not line.strip() or line.lstrip().startswith("#"):
+                continue
+            parts = [x.strip() for x in line.split("|")]
+            if len(parts) < 3:
+                continue
+            cat, text, who = parts[0], parts[1], parts[2]
+            src = parts[3] if len(parts) > 3 else ""
+            if cat not in qcats:
+                qcats.append(cat)
+            low = html.escape((text + " " + who + " " + src + " " + cat).lower())
+            srcline = f'<div class="src">{html.escape(src)}</div>' if src else ""
+            qcards += (f'<figure class="card quote" data-tags="{html.escape(cat)}" data-text="{low}">'
+                       f'<div class="tag">{html.escape(cat)}</div>'
+                       f'<blockquote><p>{html.escape(text)}</p></blockquote>'
+                       f'<figcaption><span class="who">{html.escape(who)}</span>{srcline}</figcaption></figure>')
+    qchips = '<button class="chip on" data-tag="">All</button>' + "".join(
+        f'<button class="chip" data-tag="{html.escape(c)}">{html.escape(c)}</button>' for c in qcats)
+    if not qcards:
+        qcards = '<p class="none">No aphorisms yet.</p>'
+    aph = f"""<main class="home">
+<h1 class="hero">Aphorisms</h1><p class="sub">Lines worth keeping, from philosophers, investors and poets.</p>
+<input id="q" type="search" placeholder="Search aphorisms" aria-label="Search aphorisms">
+<div class="chips">{qchips}</div>
+<div class="grid" id="grid">{qcards}</div>
+<p class="none" id="none" hidden>Nothing matches that.</p></main>"""
+    (docs / "aphorisms.html").write_text(layout(f"Aphorisms | {SITE_NAME}", aph, 0, "aphorisms"), encoding="utf-8")
 
     am, ab = parse(ROOT / "about.md")
     acontent, _ = md(ab)

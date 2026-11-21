@@ -1,0 +1,10 @@
+# Format: Category | Quote | Author | Source
+# Every quote was checked against the page named in its source line. Add new lines at the bottom.
+Philosophy | The life which is unexamined is not worth living. | Plato (Socrates) | Apology, trans. Benjamin Jowett
+Philosophy | Men are disturbed, not by things, but by the principles and notions which they form concerning things. | Epictetus | Enchiridion 5, trans. Elizabeth Carter
+Business | We simply attempt to be fearful when others are greedy and to be greedy only when others are fearful. | Warren Buffett | Berkshire Hathaway chairman's letter, 1986
+Business | Price is what you pay; value is what you get. | Warren Buffett (quoting Ben Graham) | Berkshire Hathaway shareholder letter, 2008
+Poetry | I took the one less traveled by, / And that has made all the difference. | Robert Frost | The Road Not Taken
+Poetry | To strive, to seek, to find, and not to yield. | Alfred, Lord Tennyson | Ulysses
+Poetry | I celebrate myself, and sing myself, / And what I assume you shall assume. | Walt Whitman | Song of Myself, 1
+Poetry | Things fall apart; the centre cannot hold; / Mere anarchy is loosed upon the world. | W. B. Yeats | The Second Coming
