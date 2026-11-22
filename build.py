@@ -188,7 +188,7 @@ def main():
 <div class="meta">{nice_date(date)} · {mins} min read{'<span class="views" data-views="PAGE" hidden> · <b></b> views</span>' if GOATCOUNTER else ""}</div>
 {toc_inline}
 <div class="body">{content}</div>
-<p class="back"><a href="../index.html">&larr; All articles</a></p>
+<p class="back"><a href="../index.html">&larr; All articles</a><a class="totop" href="#">&uarr; Back to top</a></p>
 </article>{toc}</div>"""
         (docs / "posts" / f"{p.stem}.html").write_text(
             layout(f"{title} | {SITE_NAME}", art, 1, progress=True), encoding="utf-8")

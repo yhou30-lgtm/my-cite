@@ -50,7 +50,9 @@ blockquote p{margin:0!important}
 .post figure.eq img{margin:0 auto;border-radius:0;mix-blend-mode:multiply}
 :root[data-theme=dark] .post figure.eq img{filter:invert(1) hue-rotate(180deg);mix-blend-mode:screen}
 @media(prefers-color-scheme:dark){:root:not([data-theme=light]) .post figure.eq img{filter:invert(1) hue-rotate(180deg);mix-blend-mode:screen}}
-.back{margin-top:3rem}
+.back{margin-top:3rem;display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:14px}
+.totop{font-size:14px;color:var(--soft);text-decoration:none;border:1px solid var(--line);border-radius:99px;padding:7px 16px;transition:color .2s,border-color .2s}
+.totop:hover{color:var(--accent-ink);border-color:var(--accent)}
 .toc{max-width:40rem;margin:0 0 28px;padding:14px 18px;border:1px solid var(--line);border-radius:14px;background:var(--card);font-size:15px}
 .toc a{display:block;color:var(--soft);text-decoration:none;padding:3px 0}
 .toc a:hover{color:var(--accent-ink)}
