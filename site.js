@@ -41,6 +41,20 @@
     spy();
   }
 
+  // View counts from GoatCounter. Numbers stay hidden unless the request succeeds.
+  var code = root.dataset.gc;
+  if (code) {
+    [].forEach.call(document.querySelectorAll("[data-views]"), function (el) {
+      var path = el.dataset.views === "TOTAL" ? "TOTAL" : location.pathname;
+      fetch("https://" + code + ".goatcounter.com/counter/" + encodeURIComponent(path) + ".json")
+        .then(function (r) { return r.ok ? r.json() : Promise.reject(); })
+        .then(function (d) {
+          if (d && d.count) { el.querySelector("b").textContent = d.count; el.hidden = false; }
+        })
+        .catch(function () {});
+    });
+  }
+
   var q = document.getElementById("q"), grid = document.getElementById("grid");
   if (q && grid) {
     var tag = "", cards = [].slice.call(grid.querySelectorAll(".card")), none = document.getElementById("none");

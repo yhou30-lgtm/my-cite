@@ -8,6 +8,7 @@ ROOT = Path(__file__).parent
 SITE_NAME = "Jack"                 # change to your full name
 HEADLINE = "Writing about what I am <i>learning</i> and what I can't stop thinking about."
 SUBLINE = "Reading poems until they start talking back."
+GOATCOUNTER = "yhou30"                   # your GoatCounter site code, e.g. "jack" for jack.goatcounter.com. Empty = no counting.
 
 
 # ---------- markdown ----------
@@ -121,8 +122,12 @@ def layout(title, body, depth=0, active="", progress=False):
         return f'<a href="{up}{href}"{on}>{label}</a>'
 
     bar = '<div id="progress"></div>' if progress else ""
+    gc_attr = f' data-gc="{GOATCOUNTER}"' if GOATCOUNTER else ""
+    gc_script = (f'<script data-goatcounter="https://{GOATCOUNTER}.goatcounter.com/count" async '
+                 f'src="//gc.zgo.at/count.js"></script>\n') if GOATCOUNTER else ""
+    total = '<span class="views" data-views="TOTAL" hidden> &middot; <b></b> views</span>' if GOATCOUNTER else ""
     return f"""<!doctype html>
-<html lang="en"><head><meta charset="utf-8">
+<html lang="en"{gc_attr}><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{html.escape(title)}</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -135,8 +140,8 @@ def layout(title, body, depth=0, active="", progress=False):
 <nav>{nav("index.html", "Articles", "home")}{nav("aphorisms.html", "Aphorisms", "aphorisms")}{nav("about.html", "About", "about")}
 <button id="theme" aria-label="Switch light or dark theme">Dark</button></nav></header>
 {body}
-<footer>&copy; {html.escape(SITE_NAME)}</footer>
-<script src="{up}site.js"></script>
+<footer>&copy; {html.escape(SITE_NAME)}{total}</footer>
+{gc_script}<script src="{up}site.js"></script>
 </body></html>"""
 
 
@@ -180,7 +185,7 @@ def main():
 <article class="post{cls}">
 <div class="tag">{tagline}</div>
 <h1>{html.escape(title)}</h1>
-<div class="meta">{nice_date(date)} · {mins} min read</div>
+<div class="meta">{nice_date(date)} · {mins} min read{'<span class="views" data-views="PAGE" hidden> · <b></b> views</span>' if GOATCOUNTER else ""}</div>
 {toc_inline}
 <div class="body">{content}</div>
 <p class="back"><a href="../index.html">&larr; All articles</a></p>
